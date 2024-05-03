@@ -1,0 +1,10 @@
+add_executable(
+    image_processor
+    image_processor.cpp
+        Image/Color.cpp
+        Filters/Filters.cpp
+        Image/Image.cpp
+        Parser/Parser.cpp
+        Reading_and_writing/Reader.cpp
+        Reading_and_writing/Writer.cpp
+)
